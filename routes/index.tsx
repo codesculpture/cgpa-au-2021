@@ -7,7 +7,7 @@ export default function Home() {
 		  <Head>
 			  <title>Calculate CGPA - 2021 AU</title>
 			  <meta name="description" content="Calculate CGPA for Anna University 2021 Regulation"/>
-			  <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/981/872/png-transparent-computer-terminal-computer-icons-linux-console-terminal-emulator-linux-logo-desktop-wallpaper-linux-thumbnail.png" />	  
+			  <link rel="icon" type="image/x-icon" href="logo.png" />		 
 		  </Head>
     <div class="p-4 mx-auto max-w-screen-md">
 	    <div class="text-head font-bold text-blue-600 text-center">
