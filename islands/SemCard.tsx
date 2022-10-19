@@ -40,8 +40,8 @@ export default function SemCard({dept, query, setQuery, removeSem} : PropsQuery)
 
 
 	return (
-		<div class="shadow-xl text-center w-auto border-blue-600 hover:border-b-2 hover:border-l-2 flex flex-row text-sm gap-x-5">
-			<div> 
+		<div class="shadow-xl text-center w-auto border-white-500/30 border-1 hover:border-b-2 hover:border-l-2 bg-white-500/25 shadow-gBox rounded-lg flex flex-row text-sm gap-x-5 backdrop-blur-gBox">
+			<div>
 				<label for="sem-select" class="pt-3">Semester: </label>
 			    <input value={query.sem} 
 				    onInput={handleChange} 

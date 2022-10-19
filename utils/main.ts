@@ -12,7 +12,6 @@ const CGPA = (query: Query): Result => {
   for (const sub in query.values) {
     if (!(sub in SUBS)) return { error: "Subject Not Found " + sub, cgpa: 0 };
     //Skip the Arrear
-    if (query.values[sub] === "U") continue;
     if (!(query.values[sub] in GRADE_MAP)) {
       return { error: "Grade Error For" + sub, cgpa: 0 };
     }

@@ -55,7 +55,6 @@ export default function Main() {
 		setQueries((query) => query.filter(i => i.id !== id));
 	}
 
-	useEffect(() => {console.log(queries)}, [queries])
 	return(
 		<div class="text-center">
 			<div class="flex gap-2 justify-center">
