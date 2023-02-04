@@ -10,10 +10,9 @@ export default function RecordCard() {
 
         fetch("/api/createRecord", {
             method: "PUT",
-            body: {
-                regNo,
-                name,
-            }
+            body: JSON.stringify({
+                name,regNo
+            })
         })
     } 
 

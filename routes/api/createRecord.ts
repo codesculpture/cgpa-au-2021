@@ -9,7 +9,9 @@ export const handler: Handlers = {
   		port: Deno.env.get("DB_PORT"),
 		password: Deno.env.get("DB_PWD")
 		});
-		await redis.set(req.body.regNo, req.body.name);
+
+		const { name, regNo } = await req.json();
+		await redis.set(name, regNo);
 
 		return new Response(
 			"Sucess", {
