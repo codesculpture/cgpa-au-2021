@@ -1,5 +1,8 @@
 import Main from '../islands/Main.tsx';
 import { Head } from "$fresh/runtime.ts";
+import RecordCard from '../islands/RecordCard.tsx';
+import "https://deno.land/x/dotenv/load.ts";
+
 
 export default function Home() {
   return (
@@ -23,8 +26,9 @@ export default function Home() {
 	   </div>
 	    <Main />
 	   </div>
+	  <RecordCard />
 		  <div class="text-center bottom-0">
-			  Made with ❤️  by <a class="text-blue-600"href="https://github.com/codesculpture">Arvind</a>
+			  Made with ❤️ by <a class="text-blue-600" href="https://github.com/codesculpture">Arvind</a>
 		  </div>
 	  </>
   );

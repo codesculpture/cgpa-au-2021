@@ -1,1 +1,5 @@
 .vim/
+
+.env
+.vscode
+deno.lock
